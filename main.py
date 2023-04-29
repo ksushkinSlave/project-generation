@@ -225,7 +225,7 @@ while not game_over:
     pygame.display.update()
 
     # Ограничение количества кадров в секунду
-    clock.tick(120)
+    clock.tick(20)
 
 # Завершение игры
 pygame.quit()
